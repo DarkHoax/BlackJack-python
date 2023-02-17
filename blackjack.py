@@ -46,8 +46,7 @@ def mostrarMaos(jogadorMao, bancaMao, mostrarbancaMao):
         print('Banca: ???', getValorMao(bancaMao))
         mostrarCartas([BACKSIDE] + bancaMao[1:])
 
-    print('JOGADOR:', mostrarMaos(jogadorMao))
-    # DIZ QUE TEM UM ERRO AQUI, QUE É PARA MOSTRAR BANCA E O QUE A BANCA TEM NAS MAOS, POREM SO QUERO A MAO DO JOGADOR
+    print('JOGADOR:', getValorMao(jogadorMao))
     mostrarCartas(jogadorMao)
 
 
